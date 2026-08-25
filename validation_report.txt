@@ -1,0 +1,14 @@
+============================================================
+SmartBranch 360 - Validation Report
+============================================================
+
+--- Plan checks: requirements.yaml ---
+[INFO ] (IP-PLAN) Plan passed all static checks: no duplicate VLANs, no overlapping subnets, gateways valid, guest isolated.
+
+--- Show-output checks: show_outputs ---
+[ERROR] (INTERFACE) R1_show_ip_interface_brief.txt: interface GigabitEthernet0/2 is administratively down
+         -> Suggested fix: no shutdown on the affected interface
+[ERROR] (INTERFACE) R1_show_ip_interface_brief.txt: interface Vlan1 is administratively down
+         -> Suggested fix: no shutdown on the affected interface
+
+Done.

@@ -1,0 +1,2 @@
+R1#show ip nat translations
+R1#
