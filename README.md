@@ -15,7 +15,7 @@ The objective of SmartBranch 360 is to design and build a small but secure branc
 - Internal server access
 - Inter-VLAN routing
 - Internet access using NAT/PAT
-- Guest network isolation.
+- Guest network isolation
 - Secure wireless connectivity
 - Out-of-band management
 - Automated network assurance using Python
